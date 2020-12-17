@@ -2,10 +2,13 @@
 
 Docker django file for development
 
+Update the postgres DB name, username and password on docker-compose.yml file.
+
 Required to create the volumes for postgres by running 
 
 ```docker volume create pgdata```
 
+# commands
 To run the application 
 
 ```docker-compose up```
