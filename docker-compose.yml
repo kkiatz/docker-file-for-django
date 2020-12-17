@@ -10,6 +10,8 @@ services:
       - POSTGRES_PASSWORD=abcd
       - POSTGRES_USER=ali
       - POSTGRES_DB=dbname
+    ports:
+      - 5432:5432
   web:
     build: .
     command: python manage.py runserver 0.0.0.0:8091
