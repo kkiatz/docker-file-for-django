@@ -9,7 +9,7 @@ services:
     environment:
       - POSTGRES_PASSWORD=abcd
       - POSTGRES_USER=ali
-      - POSTGRES_DB=stockdb
+      - POSTGRES_DB=dbname
   web:
     build: .
     command: python manage.py runserver 0.0.0.0:8091
