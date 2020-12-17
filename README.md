@@ -20,3 +20,7 @@ To run the django shell or command
 To access with bash
 
 ```docker-compose run web bash```
+
+To access postgresql
+
+``` docker exec -it <container name> psql -h <host> -U <username> <dbname>```
