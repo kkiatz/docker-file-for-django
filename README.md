@@ -24,3 +24,5 @@ To access with bash
 To access postgresql
 
 ``` docker exec -it <container name> psql -h <host> -U <username> <dbname>```
+
+```docker-compose exec <container name> psql -U <username> <dbname>```
