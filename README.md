@@ -19,7 +19,7 @@ To run the django shell or command
 
 To access with bash
 
-```docker-compose run web bash```
+```docker-compose exec web bash```
 
 To access postgresql
 
