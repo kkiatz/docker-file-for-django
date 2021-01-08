@@ -15,7 +15,7 @@ To run the application
 
 To run the django shell or command 
 
-```docker-compose run web python manage.py shell```
+```docker-compose exec web python manage.py shell```
 
 To access with bash
 
