@@ -28,7 +28,7 @@ To access postgresql
 ```docker-compose exec <container name> psql -U <username> -d <dbname>```
 
 rebuild image
-docker-compose build web
+```docker-compose build web```
 
 Remove unused images
-docker images prune -a 
+```docker images prune -a```
